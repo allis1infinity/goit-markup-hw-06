@@ -329,6 +329,11 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.mobile-list .header-menu-item-link:hover,
+.mobile-list .header-menu-item-link:focus {
   color: #404bbf;
 }
 
@@ -349,10 +354,16 @@ button {
 }
 
 .mobile-adress-item-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.mobile-adress-item-link:hover,
+.mobile-adress-item-link:focus {
   color: #4d5ae5;
 }
 
@@ -681,6 +692,12 @@ button {
   fill: #f4f4fd;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .team-container {
+    max-width: 584px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team-list {
     gap: 64px 24px;
@@ -837,6 +854,7 @@ button {
 
 .footer-left-part {
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -867,7 +885,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: start;
-  margin-bottom: 72px;
 }
 
 .footer-media-box {
